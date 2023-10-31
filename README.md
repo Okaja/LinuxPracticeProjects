@@ -412,6 +412,8 @@ This command allows users create shortcut with the same functionality as the com
 
  - Syntax: su [options] [username] [argument]
 
+ ![SwitchUser](./img/su.png)
+
  ## htop
  This command is an interactive program that monitors system resources and server proceses in real time.
  Though its avaliable in most Linux distributions, it can be installed using the default package manager
