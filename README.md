@@ -362,11 +362,11 @@ The useradd command performs some major changes: Edits the /etc/passwd, /etc/sha
 
 - Syntax: useradd [option] username
 
-- To set the password: passwd the_password_combination
+- To set the password: passwd username
 
 useradd Okaja
 
-passwd changeme
+passwd Okaja
 
 userdel Okaja
 
@@ -379,7 +379,7 @@ This command is used for handling Advanced Package Tool libraries in Linux. It l
  
 The most common options are update syncronizes the package files from their sources. update installs the lastest version of all installed packages, It also checks, updates the package cache and checks broken dependencies
 
-[apt-get](./img/ap)
+![apt-get](./img/apt-get.png)
 
 ## nanao,vi,jed
 This are text editors that is used to manage file. Nano and vi comes with the operating system while jed is installed
